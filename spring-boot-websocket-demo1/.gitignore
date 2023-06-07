@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/webapp/spring-boot-websocket-demo1/node_modules

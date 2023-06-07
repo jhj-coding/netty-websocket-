@@ -4,7 +4,6 @@ import io.netty.channel.Channel;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.concurrent.GlobalEventExecutor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.concurrent.ConcurrentHashMap;
@@ -18,9 +17,6 @@ import java.util.concurrent.ConcurrentMap;
  */
 @Configuration
 public class NettyConfig {
-	
-	
-	
 	/**
 	 * 存储所有在线的客户端Channel
 	 */
